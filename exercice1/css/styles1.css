@@ -1,0 +1,45 @@
+.puzzle {
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-areas:
+        "place1 place2 place3"
+        "place4 place5 place6"
+        "place7 place8 place9";
+}
+
+#piece1 {
+    grid-area: place6;
+}
+
+#piece2 {
+    grid-area: place7;
+}
+
+#piece3 {
+    grid-area: place5;
+}
+
+#piece4 {
+    grid-area: place8;
+}
+
+#piece5 {
+    grid-area: place3;
+}
+
+#piece6 {
+    grid-area: place1;
+}
+
+#piece7 {
+    grid-area: place9;
+}
+
+#piece8 {
+    grid-area: place2;
+}
+
+#piece9 {
+    grid-area: place4;
+}

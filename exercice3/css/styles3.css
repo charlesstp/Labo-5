@@ -1,0 +1,49 @@
+#conteneur {
+    display: grid;
+    background-color: white;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+        "header header header header"
+        "nav    nav    nav   nav"
+        "aside  main   main  main"
+        "aside  main   main  main"
+        "aside  main   main  main"
+        "footer footer footer footer";
+    height: 450px;
+    width: 550px;
+    margin: auto;
+    padding-top: 30px;
+    gap: 3px;
+}
+
+#header {
+    grid-area: header;
+    background-color: cyan;
+}
+
+#nav {
+    grid-area: nav;
+    background-color: cyan;
+}
+
+#aside {
+    grid-area: aside;
+    background-color: cyan;
+}
+
+#main {
+    grid-area: main;
+    background-color: cyan;
+
+}
+
+#footer {
+    grid-area: footer;
+    background-color: cyan;
+}
+
+.textAlign {
+    padding-top: 25px;
+    padding-left: 20px;
+}

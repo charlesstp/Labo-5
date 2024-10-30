@@ -43,7 +43,11 @@
     background-color: cyan;
 }
 
-.textAlign {
+.textAlignCellule {
     padding-top: 25px;
     padding-left: 20px;
+}
+
+#textAlignH2 {
+    text-align: center;
 }
